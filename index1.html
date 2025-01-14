@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header class="header">
+        <a href="https://www.facebook.com/vincentjulescesarbhf?mibextid=LQQJ4d&mibextid=LQQJ4d#" target="_blank"
+         class="text-white">VINCENT Jules César Bernadin Héribert-Fils</a>
+        
+     </header>
+     <div class="Hero">
+        <h1 class="jeu">Hello tout le monde</h1>
+        <p class="info"> Je suis un passionné du développement web,
+            je tiens à partager avec vous quelques-unes de mes initiatives.
+        </p>
+        <button>Voir mes projets</button>
+     </div>
+    
+     <div class="Apropos">
+        <h2 class="titre">À propos</h2>
+        <p class="info"> Je suis VINCENT,
+            Un passionné de la création des sites web modernes et interactifs.
+            Je suis un professionnel évoluant dans les secteurs agricole et recyclage
+            et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.
+            J’adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.
+                           
+        </p>
+        <p>
+             <button class="cv" >Téléchargez mon CV </button>
+            </p>
+            <div class="ronde">
+                <img src="Mon profil.jpg"
+                alt="Présentation du développeur en herbe"/>
+     </div>
+     
+
+     <div class="Mesprojets">
+        <h3 class="titre">Mes projets</h3>
+        <main>
+            <p class="jeu">Jeu sur les devinettes</p>
+              <p class="J">Devinez un nombre situé entre 1 et 100 </p>
+              <p id = "message"></p>
+              <div id = "form">
+                <input type ="number" id = "input">
+                <button id>Jouez</button>
+                </div> 
+                <div id = "link"><a href="index.html">Recommencez</a></div>
+            </main>
+     </div>
+
+     <div class="Mescompetences">
+        <h4 class="titre">Mes compétences</h4>
+        <p> HTML </p>
+        <div class="container">
+            <div class="container skills html">80</div>
+        </div>
+
+        <p> CSS</p>
+        <div class="container">
+            <div class=" container skills css">75</div>
+        </div>
+
+        <p>JAVASCRIPT</p>
+        <div class="container">
+            <div class="container skills javascript">50</div>
+        </div>
+        
+        <p> VS Code </p>
+        <div class="container">
+            <div class="container skills vscode">90</div>
+        </div>
+     </div>
+
+     <div class="Contact">
+        <form method ="post" action = "traitement.php">
+            <p class="for">Vous avez un projet en tête?
+                N'hésitez pas à me contacter.
+                 </p>
+                <hr>
+                 <div class = "inscription">
+                    <div>
+                    <label for="VINCENT">NOM:</label>
+                    <input type = "text" name="VINCENT"
+                    id="VINCENT" placeholder="Ex: VINCENT"/>
+                    </div>
+                    <div>
+                        <label for="Jules César Bernadin Héribert-Fils"> Prénom(s): </label>
+                        <input type = "text" name ="Jules César Bernadin Héribert-Fils"
+                        id="Jules César Bernadin Héribert-Fils" placeholder="Ex:Jules César Bernadin Héribert-Fils"/>
+                        <br/>
+                    </div>
+                    <div>
+                        <label for="theme"> Sujet: </label>
+                        <input type = "text" name="theme"
+                        id="theme" placeholder="Ex:Besoin d'aide en Javascript"/>  
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="zone de saisie"></label>
+                        <input type = "text" name ="zone de saisie"
+                        id="zone de saisie" placeholder="saisissez votre message">  
+                    </div>
+                   
+                    <button class="bouton"> Envoyez </button>
+
+        </form>
+     </div>
+
+     <div class="Pied">
+        <p class="by">Conçu par Jules César Bernadin Héribert-Fils avec HTML,CSS,JS & VS code
+            <br> Tous droits réservés -2025 
+        </p>
+     </div>
+</body>
+<script src="app1.js"></script>
+</html>

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Hero{
+    width: 100%;
+    min-height: 350px;
+    background: beige;
+}
+
+.titre{
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+}
+
+.jeu{
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+.info {
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold; 
+    text-align: center; color: black;
+}
+
+button{
+    margin-bottom: 45px;
+    color: white;
+    background-color: rgb(0, 225, 255);
+    font-size: 30px; 
+    border-radius: 0 60PX 60PX 0;
+    cursor: pointer;
+    border: 1px solid #0B6FDC;
+    
+}
+
+#link {
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    text-align: center;
+    border: 2px solid #0B6FDC;
+    padding: 16px 70px;
+    text-decoration: 0;
+    color: #fff;
+    transition:0.5s;
+    border-radius: 60PX;
+    cursor: pointer;
+    background-color:aqua;
+}
+a:hover {
+   
+    background-color: transparent;
+    color: aqua;
+}
+
+.Apropos{
+    background-color: lightgray;
+    height: 450px;
+    
+}
+
+.ronde {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.ronde> img{
+    width: 130px;
+    border-radius: 50%;
+    border: 10px solid aqua;
+    max-width: 100%;
+}
+    
+ 
+.Mesprojets{
+    background-color: cadetblue;
+    height: 400px;
+}
+
+main {
+    background-color: #fff;
+    width: 100;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    text-align: center;
+    min-height: 100vh;
+   
+}
+
+input  {
+    width: calc(100% - 100PX);
+    padding: 16px 5px;
+    outline: 0;
+    border: 2px solid #0B6FDC;
+    border-radius: 60PX 0 0 60PX;
+    text-align: center;
+
+} 
+
+
+.Mescompetences{
+    background-color: rgb(128, 128, 128);
+    height: 400px;
+}
+
+p{
+    text-align: right;
+    font-weight: bold;
+}
+.J{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;   
+}
+.container {
+    width: 100;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+.skills {
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: aqua; 
+} 
+.html{
+    width: 80%;
+    background-color: peru;
+    animation: animation1 3s ease-in-out forwards;
+}
+@keyframes animation1 {
+  0%{
+    width: 0;
+    margin-left: -50px;
+  }  
+  100%{
+    width: 80%;
+  }
+}
+.css{
+    width: 75%;
+    background-color: purple;
+    animation: animation2 3s ease-in-out forwards;
+}
+@keyframes animation2 {
+  0%{
+    width: 0;
+    margin-left: -50px;
+  }  
+  100%{
+    width: 75%;
+  }
+}
+
+.javascript{
+    width: 50%;
+    background-color: red;
+    animation: animation3 3s ease-in-out forwards;
+}
+@keyframes animation3 {
+  0%{
+    width: 0;
+    margin-left: -50px;
+  }  
+  100%{
+    width: 50%;
+  }
+}
+
+.vscode{
+    width: 90%;
+    background-color: yellow;
+    animation: animation4 3s ease-in-out forwards;
+}
+@keyframes animation4 {
+  0%{
+    width: 0;
+    margin-left: -50px;
+  }  
+  100%{
+    width: 90%;
+  }
+}
+
+.Contact{
+background-color: rgb(25, 26, 25);
+height: 150px;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 6px;
+
+    
+}
+
+hr{
+    margin: 10px 0;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+
+
+.for{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(241, 18, 18);
+}
+.inscription{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    
+    }
+    .inscription div{
+        width: 49%;
+    
+    }
+    label{
+        color: red;
+        font-size: 10px;
+        
+    }
+
+    .bouton{
+        margin-bottom: 45px;
+        color: white;
+        background-color: red;
+        font-size: 30px;
+    }
+
+
+.Pied{
+    background-color: beige;
+    height: 100px;
+}
+.by{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
